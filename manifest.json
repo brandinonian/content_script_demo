@@ -1,0 +1,13 @@
+{
+    "manifest_version": 3,
+    "name": "content_script_demo",
+    "version": "1.0.0",
+    "action": {
+        "default_title": "Launch"
+    },
+    "permissions": ["activeTab", "scripting", "tabs"],
+    "background": {
+        "service_worker": "background.js"
+    }
+
+}
